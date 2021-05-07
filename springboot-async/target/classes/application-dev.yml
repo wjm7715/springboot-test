@@ -1,0 +1,94 @@
+server:
+  #端口号
+  port: 8086
+
+# 异常通知地址 多个邮箱以逗号分隔
+alarm:
+  email: hzlizhenxing@163.com
+  project: （线下Web）物联网诊断口袋助手
+
+#spring
+spring:
+  datasource:      #orcale数据库配置
+    url: jdbc:oracle:thin:@//db.zhejiangict.com:1521/wlwzdkdzs
+    username: wlwzdkdzs
+    password: wlwzdkdzs#2020
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    #连接池配置
+    type: com.alibaba.druid.pool.DruidDataSource
+    # 初始化大小，最小，最大
+    initialSize: 20     #初始连接大小
+    minIdle: 20          #最小连接池数量
+    maxActive: 50
+    # 配置获取连接等待超时的时间，单位毫秒
+    maxWait: 60000
+    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    timeBetweenEvictionRunsMillis: 30000
+    # 配置一个连接在池中最小生存的时间，单位是毫秒
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL    #测试连接
+    testWhileIdle: true                     #不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效。
+    testOnBorrow: false                     #获取连接时执行检测，建议关闭，影响性能
+    testOnReturn: false                     #归还连接时执行检测，建议关闭，影响性能
+    # 是否开启PSCache，并且指定每个连接上PSCache的大小。PSCache对支持游标的数据库性能提升巨大，oracle建议开启，mysql下建议关闭
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙，防止sql注入 ,wall
+    filters: stat,log4j
+    # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;socketTimeout=3000;connectTimeout=1000
+    # 数据源优化，防止反复尝试
+    breakAfterAcquireFailure: true
+    # 重试次数设置为0
+    connectionErrorRetryAttempts: 0
+  redis:
+    #redis 服务器地址
+    host: 192.168.1.96
+    #redis端口
+    port: 7380
+    #redis 密码
+    password: redis@2020
+    #客户端超时时间单位是毫秒 默认是2000
+    timeout: 5000
+    #最大空闲数
+    maxIdle: 20
+    #连接池的最大数据库连接数
+    maxActive: -1
+    #控制一个pool可分配多少个jedis实例,用来替换上面的maxActive
+    maxTotal: 100
+    #最大建立连接等待时间。如果超过此时间将接到异常
+    maxWaitMillis: 100
+    #连接的最小空闲时间
+    minEvictableIdleTimeMillis: 864000000
+    #每次释放连接的最大数目
+    numTestsPerEvictionRun: 10
+    #逐出扫描的时间间隔(毫秒) 如果为负数,则不运行逐出线程
+    timeBetweenEvictionRunsMillis: 300000
+    #是否在从池中取出连接前进行检验,如果检验失败,则从池中去除连接并尝试取出另一个
+    testOnBorrow: true
+    #在空闲时检查有效性
+    testWhileIdle: false
+    #数据库
+    database: 0
+  servlet:
+    multipart:
+      maxFileSize: "100MB"
+      maxRequestSize: "100MB"
+  resources:
+    static-locations: file:D:/ideaProject/wlwzdkdzs/files/
+  mvc:
+    static-path-pattern: /resources/**
+
+mybatis:
+  #mapping.xml所在位置
+  mapper-locations: classpath*:mapping/*.xml
+    #configuration:
+    #call-setters-on-nulls: true
+  #在控制台上打印sql的配置
+  #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  config-location: classpath:mybatisConfig/sqlMapConfig.xml
+
+#文件上传下载的路径
+file:
+  path: D:/ideaProject/wlwzdkdzs/files/
+
