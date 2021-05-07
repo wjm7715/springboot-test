@@ -8,6 +8,7 @@ public class SpringbootHelloApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringbootHelloApplication.class, args);
+        System.out.println("springboot 测试项目启动成功");
     }
 
 }
