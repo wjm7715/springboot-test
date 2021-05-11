@@ -13,3 +13,8 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.example.demo.entity
+
+logging.level.org.springframework.boot.autoconfigure: info
+logging:
+  file:
+    path: D:/app/java/idea/workspase/test/springboot-test/logs
