@@ -4,12 +4,6 @@
 <mapper namespace="com.wjm.springbootmybatis.dao.UserMapper">
 
 <select id="getUserInfo" resultType="com.wjm.springbootmybatis.entity.User">
-        select city as "city",
-        county as "county",
-        user_login as "userLogin",
-        user_pass as "userPass",
-        user_nickname as "userNickname",
-        mobile as "mobile"
-        from s_user
+        select * from s_user
     </select>
 </mapper>

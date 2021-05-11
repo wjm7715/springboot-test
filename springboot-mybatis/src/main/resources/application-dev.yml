@@ -9,10 +9,13 @@ spring:
     url: jdbc:mysql://localhost:3306/ksxt?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
     password: root2021
+    type: com.alibaba.druid.pool.DruidDataSource
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.example.demo.entity
+  configuration:
+    map-underscore-to-camel-case: true
 
 logging.level.org.springframework.boot.autoconfigure: info
 logging:
