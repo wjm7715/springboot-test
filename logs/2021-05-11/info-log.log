@@ -1,0 +1,285 @@
+2021-05-11 15:37:06.713 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:55 ----------------> Starting SpringbootMybatisApplication using Java 1.8.0_161 on DESKTOP-QA8N3ES with PID 1884 (D:\app\java\idea\workspase\test\springboot-test\springboot-mybatis\target\classes started by 15771 in D:\app\java\idea\workspase\test\springboot-test)
+2021-05-11 15:37:06.715 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:679 ----------------> The following profiles are active: dev
+2021-05-11 15:37:07.539 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:108 ----------------> Tomcat initialized with port(s): 8087 (http)
+2021-05-11 15:37:07.545 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-11 15:37:07.551 [main] INFO  org.apache.catalina.core.StandardService Line:173 ----------------> Starting service [Tomcat]
+2021-05-11 15:37:07.551 [main] INFO  org.apache.catalina.core.StandardEngine Line:173 ----------------> Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-11 15:37:07.552 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-05-11 15:37:07.552 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-05-11 15:37:07.552 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-11 15:37:07.552 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-11 15:37:08.579 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-05-11 15:37:08.625 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring embedded WebApplicationContext
+2021-05-11 15:37:08.625 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 ----------------> Root WebApplicationContext: initialization completed in 1872 ms
+2021-05-11 15:37:09.022 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-11 15:37:09.074 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 ----------------> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-11 15:37:09.162 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:181 ----------------> Initializing ExecutorService 'taskScheduler'
+2021-05-11 15:37:09.183 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Starting ProtocolHandler ["http-nio-8087"]
+2021-05-11 15:37:09.196 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:220 ----------------> Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-11 15:37:09.197 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2021-05-11 15:37:09.208 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2021-05-11 15:37:09.229 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2021-05-11 15:37:09.310 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:61 ----------------> Started SpringbootMybatisApplication in 2.999 seconds (JVM running for 3.737)
+2021-05-11 15:37:24.736 [http-nio-8087-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-11 15:37:24.736 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet Line:525 ----------------> Initializing Servlet 'dispatcherServlet'
+2021-05-11 15:37:24.737 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet Line:547 ----------------> Completed initialization in 1 ms
+2021-05-11 15:37:24.753 [http-nio-8087-exec-2] INFO  c.wjm.springbootmybatis.controller.UserController Line:30 ----------------> Controller info: 
+2021-05-11 15:37:24.753 [http-nio-8087-exec-2] ERROR c.wjm.springbootmybatis.controller.UserController Line:31 ----------------> Controller error: 
+2021-05-11 15:37:24.754 [http-nio-8087-exec-2] INFO  com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:23 ----------------> ServiceImpl info: 
+2021-05-11 15:37:24.754 [http-nio-8087-exec-2] ERROR com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:24 ----------------> ServiceImpl error: 
+2021-05-11 15:37:24.766 [http-nio-8087-exec-2] INFO  com.zaxxer.hikari.HikariDataSource Line:110 ----------------> HikariPool-1 - Starting...
+2021-05-11 15:37:24.889 [http-nio-8087-exec-2] INFO  com.zaxxer.hikari.HikariDataSource Line:123 ----------------> HikariPool-1 - Start completed.
+2021-05-11 15:37:24.893 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==>  Preparing: select city as "city", county as "county", user_login as "userLogin", user_pass as "userPass", user_nickname as "userNickname", mobile as "mobile" from s_user 
+2021-05-11 15:37:24.909 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==> Parameters: 
+2021-05-11 15:37:24.926 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> <==      Total: 1
+2021-05-11 16:31:37.510 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:218 ----------------> Shutting down ExecutorService 'taskScheduler'
+2021-05-11 16:31:37.511 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 ----------------> Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-11 16:31:37.513 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource Line:350 ----------------> HikariPool-1 - Shutdown initiated...
+2021-05-11 16:31:37.515 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource Line:352 ----------------> HikariPool-1 - Shutdown completed.
+2021-05-11 16:31:40.102 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:55 ----------------> Starting SpringbootMybatisApplication using Java 1.8.0_161 on DESKTOP-QA8N3ES with PID 16716 (D:\app\java\idea\workspase\test\springboot-test\springboot-mybatis\target\classes started by 15771 in D:\app\java\idea\workspase\test\springboot-test)
+2021-05-11 16:31:40.105 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:679 ----------------> The following profiles are active: dev
+2021-05-11 16:31:40.895 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:108 ----------------> Tomcat initialized with port(s): 8087 (http)
+2021-05-11 16:31:40.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-11 16:31:40.901 [main] INFO  org.apache.catalina.core.StandardService Line:173 ----------------> Starting service [Tomcat]
+2021-05-11 16:31:40.901 [main] INFO  org.apache.catalina.core.StandardEngine Line:173 ----------------> Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-11 16:31:40.902 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-05-11 16:31:40.903 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-05-11 16:31:40.903 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-11 16:31:40.903 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-11 16:31:41.944 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-05-11 16:31:41.989 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring embedded WebApplicationContext
+2021-05-11 16:31:41.989 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 ----------------> Root WebApplicationContext: initialization completed in 1844 ms
+2021-05-11 16:31:42.390 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-11 16:31:42.442 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 ----------------> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-11 16:31:42.530 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:181 ----------------> Initializing ExecutorService 'taskScheduler'
+2021-05-11 16:31:42.551 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Starting ProtocolHandler ["http-nio-8087"]
+2021-05-11 16:31:42.563 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:220 ----------------> Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-11 16:31:42.564 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2021-05-11 16:31:42.575 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2021-05-11 16:31:42.596 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2021-05-11 16:31:42.678 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:61 ----------------> Started SpringbootMybatisApplication in 2.974 seconds (JVM running for 3.68)
+2021-05-11 16:31:51.848 [http-nio-8087-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-11 16:31:51.848 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet Line:525 ----------------> Initializing Servlet 'dispatcherServlet'
+2021-05-11 16:31:51.849 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet Line:547 ----------------> Completed initialization in 1 ms
+2021-05-11 16:31:51.864 [http-nio-8087-exec-2] INFO  c.wjm.springbootmybatis.controller.UserController Line:30 ----------------> Controller info: 
+2021-05-11 16:31:51.865 [http-nio-8087-exec-2] ERROR c.wjm.springbootmybatis.controller.UserController Line:31 ----------------> Controller error: 
+2021-05-11 16:31:51.865 [http-nio-8087-exec-2] INFO  com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:23 ----------------> ServiceImpl info: 
+2021-05-11 16:31:51.865 [http-nio-8087-exec-2] ERROR com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:24 ----------------> ServiceImpl error: 
+2021-05-11 16:31:51.878 [http-nio-8087-exec-2] INFO  com.zaxxer.hikari.HikariDataSource Line:110 ----------------> HikariPool-1 - Starting...
+2021-05-11 16:31:52.002 [http-nio-8087-exec-2] INFO  com.zaxxer.hikari.HikariDataSource Line:123 ----------------> HikariPool-1 - Start completed.
+2021-05-11 16:31:52.007 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==>  Preparing: select city as "city", county as "county", user_login as "userLogin", user_pass as "userPass", user_nickname as "userNickname", mobile as "mobile" from s_user 
+2021-05-11 16:31:52.024 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==> Parameters: 
+2021-05-11 16:31:52.041 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> <==      Total: 1
+2021-05-11 17:33:21.674 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:55 ----------------> Starting SpringbootMybatisApplication using Java 1.8.0_161 on DESKTOP-QA8N3ES with PID 1112 (D:\app\java\idea\workspase\test\springboot-test\springboot-mybatis\target\classes started by 15771 in D:\app\java\idea\workspase\test\springboot-test)
+2021-05-11 17:33:21.678 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:679 ----------------> The following profiles are active: dev
+2021-05-11 17:33:22.472 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:108 ----------------> Tomcat initialized with port(s): 8087 (http)
+2021-05-11 17:33:22.478 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:33:22.479 [main] INFO  org.apache.catalina.core.StandardService Line:173 ----------------> Starting service [Tomcat]
+2021-05-11 17:33:22.479 [main] INFO  org.apache.catalina.core.StandardEngine Line:173 ----------------> Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-11 17:33:22.480 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-05-11 17:33:22.480 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-05-11 17:33:22.480 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-11 17:33:22.481 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-11 17:33:23.503 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-05-11 17:33:23.549 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring embedded WebApplicationContext
+2021-05-11 17:33:23.549 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 ----------------> Root WebApplicationContext: initialization completed in 1837 ms
+2021-05-11 17:33:23.964 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-11 17:33:24.019 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 ----------------> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-11 17:33:24.108 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:181 ----------------> Initializing ExecutorService 'taskScheduler'
+2021-05-11 17:33:24.129 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Starting ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:33:24.142 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:220 ----------------> Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-11 17:33:24.143 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2021-05-11 17:33:24.155 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2021-05-11 17:33:24.175 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2021-05-11 17:33:24.257 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:61 ----------------> Started SpringbootMybatisApplication in 3.013 seconds (JVM running for 3.774)
+2021-05-11 17:33:41.031 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-11 17:33:41.031 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:525 ----------------> Initializing Servlet 'dispatcherServlet'
+2021-05-11 17:33:41.032 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:547 ----------------> Completed initialization in 1 ms
+2021-05-11 17:33:41.048 [http-nio-8087-exec-1] INFO  c.wjm.springbootmybatis.controller.UserController Line:30 ----------------> Controller info: 
+2021-05-11 17:33:41.048 [http-nio-8087-exec-1] ERROR c.wjm.springbootmybatis.controller.UserController Line:31 ----------------> Controller error: 
+2021-05-11 17:33:41.053 [http-nio-8087-exec-1] INFO  com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:23 ----------------> ServiceImpl info: 
+2021-05-11 17:33:41.054 [http-nio-8087-exec-1] ERROR com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:24 ----------------> ServiceImpl error: 
+2021-05-11 17:33:41.088 [http-nio-8087-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource Line:928 ----------------> {dataSource-1} inited
+2021-05-11 17:33:41.207 [http-nio-8087-exec-1] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==>  Preparing: -- select city as "city", -- county as "county", -- user_login as "userLogin", -- user_pass as "userPass", -- user_nickname as "userNickname", -- mobile as "mobile" -- from s_user select * from s_user 
+2021-05-11 17:33:41.223 [http-nio-8087-exec-1] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==> Parameters: 
+2021-05-11 17:33:41.241 [http-nio-8087-exec-1] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> <==      Total: 1
+2021-05-11 17:39:39.943 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:218 ----------------> Shutting down ExecutorService 'taskScheduler'
+2021-05-11 17:39:39.945 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 ----------------> Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-11 17:39:39.949 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 ----------------> {dataSource-1} closed
+2021-05-11 17:39:43.712 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:55 ----------------> Starting SpringbootMybatisApplication using Java 1.8.0_161 on DESKTOP-QA8N3ES with PID 11300 (D:\app\java\idea\workspase\test\springboot-test\springboot-mybatis\target\classes started by 15771 in D:\app\java\idea\workspase\test\springboot-test)
+2021-05-11 17:39:43.716 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:679 ----------------> The following profiles are active: dev
+2021-05-11 17:39:44.564 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:108 ----------------> Tomcat initialized with port(s): 8087 (http)
+2021-05-11 17:39:44.570 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:39:44.571 [main] INFO  org.apache.catalina.core.StandardService Line:173 ----------------> Starting service [Tomcat]
+2021-05-11 17:39:44.571 [main] INFO  org.apache.catalina.core.StandardEngine Line:173 ----------------> Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-11 17:39:44.572 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-05-11 17:39:44.573 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-05-11 17:39:44.573 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-11 17:39:44.573 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-11 17:39:45.595 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-05-11 17:39:45.642 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring embedded WebApplicationContext
+2021-05-11 17:39:45.643 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 ----------------> Root WebApplicationContext: initialization completed in 1886 ms
+2021-05-11 17:39:46.067 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-11 17:39:46.121 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 ----------------> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-11 17:39:46.211 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:181 ----------------> Initializing ExecutorService 'taskScheduler'
+2021-05-11 17:39:46.232 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Starting ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:39:46.245 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:220 ----------------> Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-11 17:39:46.245 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2021-05-11 17:39:46.257 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2021-05-11 17:39:46.277 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2021-05-11 17:39:46.361 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:61 ----------------> Started SpringbootMybatisApplication in 3.072 seconds (JVM running for 3.771)
+2021-05-11 17:44:53.396 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-11 17:44:53.397 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:525 ----------------> Initializing Servlet 'dispatcherServlet'
+2021-05-11 17:44:53.398 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:547 ----------------> Completed initialization in 1 ms
+2021-05-11 17:44:53.413 [http-nio-8087-exec-1] INFO  c.wjm.springbootmybatis.controller.UserController Line:30 ----------------> Controller info: 
+2021-05-11 17:44:53.414 [http-nio-8087-exec-1] ERROR c.wjm.springbootmybatis.controller.UserController Line:31 ----------------> Controller error: 
+2021-05-11 17:44:53.414 [http-nio-8087-exec-1] INFO  com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:23 ----------------> ServiceImpl info: 
+2021-05-11 17:44:53.414 [http-nio-8087-exec-1] ERROR com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:24 ----------------> ServiceImpl error: 
+2021-05-11 17:44:53.451 [http-nio-8087-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource Line:928 ----------------> {dataSource-1} inited
+2021-05-11 17:44:53.576 [http-nio-8087-exec-1] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==>  Preparing: select * from s_user 
+2021-05-11 17:44:53.591 [http-nio-8087-exec-1] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==> Parameters: 
+2021-05-11 17:44:53.607 [http-nio-8087-exec-1] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> <==      Total: 1
+2021-05-11 17:45:18.157 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:218 ----------------> Shutting down ExecutorService 'taskScheduler'
+2021-05-11 17:45:18.158 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 ----------------> Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-11 17:45:18.162 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 ----------------> {dataSource-1} closed
+2021-05-11 17:45:20.711 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:55 ----------------> Starting SpringbootMybatisApplication using Java 1.8.0_161 on DESKTOP-QA8N3ES with PID 4252 (D:\app\java\idea\workspase\test\springboot-test\springboot-mybatis\target\classes started by 15771 in D:\app\java\idea\workspase\test\springboot-test)
+2021-05-11 17:45:20.714 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:679 ----------------> The following profiles are active: dev
+2021-05-11 17:45:21.551 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:108 ----------------> Tomcat initialized with port(s): 8087 (http)
+2021-05-11 17:45:21.558 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:45:21.558 [main] INFO  org.apache.catalina.core.StandardService Line:173 ----------------> Starting service [Tomcat]
+2021-05-11 17:45:21.559 [main] INFO  org.apache.catalina.core.StandardEngine Line:173 ----------------> Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-11 17:45:21.560 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-05-11 17:45:21.560 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-05-11 17:45:21.560 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-11 17:45:21.560 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-11 17:45:22.593 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-05-11 17:45:22.639 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring embedded WebApplicationContext
+2021-05-11 17:45:22.639 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 ----------------> Root WebApplicationContext: initialization completed in 1884 ms
+2021-05-11 17:45:23.057 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-11 17:45:23.114 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 ----------------> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-11 17:45:23.201 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:181 ----------------> Initializing ExecutorService 'taskScheduler'
+2021-05-11 17:45:23.224 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Starting ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:45:23.237 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:220 ----------------> Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-11 17:45:23.238 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2021-05-11 17:45:23.251 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2021-05-11 17:45:23.270 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2021-05-11 17:45:23.350 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:61 ----------------> Started SpringbootMybatisApplication in 3.069 seconds (JVM running for 3.761)
+2021-05-11 17:45:28.727 [http-nio-8087-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-11 17:45:28.728 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet Line:525 ----------------> Initializing Servlet 'dispatcherServlet'
+2021-05-11 17:45:28.729 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet Line:547 ----------------> Completed initialization in 1 ms
+2021-05-11 17:45:28.745 [http-nio-8087-exec-2] INFO  c.wjm.springbootmybatis.controller.UserController Line:30 ----------------> Controller info: 
+2021-05-11 17:45:28.746 [http-nio-8087-exec-2] ERROR c.wjm.springbootmybatis.controller.UserController Line:31 ----------------> Controller error: 
+2021-05-11 17:45:28.746 [http-nio-8087-exec-2] INFO  com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:23 ----------------> ServiceImpl info: 
+2021-05-11 17:45:28.746 [http-nio-8087-exec-2] ERROR com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:24 ----------------> ServiceImpl error: 
+2021-05-11 17:45:28.787 [http-nio-8087-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource Line:928 ----------------> {dataSource-1} inited
+2021-05-11 17:45:28.909 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==>  Preparing: select * from s_user 
+2021-05-11 17:45:28.924 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==> Parameters: 
+2021-05-11 17:45:28.942 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> <==      Total: 1
+2021-05-11 17:45:50.958 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:218 ----------------> Shutting down ExecutorService 'taskScheduler'
+2021-05-11 17:45:50.959 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 ----------------> Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-11 17:45:50.963 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 ----------------> {dataSource-1} closed
+2021-05-11 17:45:55.781 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:55 ----------------> Starting SpringbootMybatisApplication using Java 1.8.0_161 on DESKTOP-QA8N3ES with PID 21220 (D:\app\java\idea\workspase\test\springboot-test\springboot-mybatis\target\classes started by 15771 in D:\app\java\idea\workspase\test\springboot-test)
+2021-05-11 17:45:55.784 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:679 ----------------> The following profiles are active: dev
+2021-05-11 17:45:56.630 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:108 ----------------> Tomcat initialized with port(s): 8087 (http)
+2021-05-11 17:45:56.637 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:45:56.637 [main] INFO  org.apache.catalina.core.StandardService Line:173 ----------------> Starting service [Tomcat]
+2021-05-11 17:45:56.637 [main] INFO  org.apache.catalina.core.StandardEngine Line:173 ----------------> Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-11 17:45:56.639 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-05-11 17:45:56.639 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-05-11 17:45:56.639 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-11 17:45:56.639 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-11 17:45:57.673 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-05-11 17:45:57.719 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring embedded WebApplicationContext
+2021-05-11 17:45:57.719 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 ----------------> Root WebApplicationContext: initialization completed in 1899 ms
+2021-05-11 17:45:58.155 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-11 17:45:58.215 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 ----------------> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-11 17:45:58.306 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:181 ----------------> Initializing ExecutorService 'taskScheduler'
+2021-05-11 17:45:58.329 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Starting ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:45:58.341 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:220 ----------------> Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-11 17:45:58.342 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2021-05-11 17:45:58.354 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2021-05-11 17:45:58.375 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2021-05-11 17:45:58.455 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:61 ----------------> Started SpringbootMybatisApplication in 3.106 seconds (JVM running for 3.849)
+2021-05-11 17:46:05.796 [http-nio-8087-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-11 17:46:05.796 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet Line:525 ----------------> Initializing Servlet 'dispatcherServlet'
+2021-05-11 17:46:05.798 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet Line:547 ----------------> Completed initialization in 2 ms
+2021-05-11 17:46:05.815 [http-nio-8087-exec-2] INFO  c.wjm.springbootmybatis.controller.UserController Line:30 ----------------> Controller info: 
+2021-05-11 17:46:05.815 [http-nio-8087-exec-2] ERROR c.wjm.springbootmybatis.controller.UserController Line:31 ----------------> Controller error: 
+2021-05-11 17:46:05.815 [http-nio-8087-exec-2] INFO  com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:23 ----------------> ServiceImpl info: 
+2021-05-11 17:46:05.815 [http-nio-8087-exec-2] ERROR com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:24 ----------------> ServiceImpl error: 
+2021-05-11 17:46:05.853 [http-nio-8087-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource Line:928 ----------------> {dataSource-1} inited
+2021-05-11 17:46:05.972 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==>  Preparing: select * from s_user 
+2021-05-11 17:46:05.987 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==> Parameters: 
+2021-05-11 17:46:06.004 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> <==      Total: 1
+2021-05-11 17:46:19.216 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:218 ----------------> Shutting down ExecutorService 'taskScheduler'
+2021-05-11 17:46:19.217 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 ----------------> Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-11 17:46:19.221 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 ----------------> {dataSource-1} closed
+2021-05-11 17:46:22.872 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:55 ----------------> Starting SpringbootMybatisApplication using Java 1.8.0_161 on DESKTOP-QA8N3ES with PID 18364 (D:\app\java\idea\workspase\test\springboot-test\springboot-mybatis\target\classes started by 15771 in D:\app\java\idea\workspase\test\springboot-test)
+2021-05-11 17:46:22.876 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:679 ----------------> The following profiles are active: dev
+2021-05-11 17:46:23.710 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:108 ----------------> Tomcat initialized with port(s): 8087 (http)
+2021-05-11 17:46:23.716 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:46:23.716 [main] INFO  org.apache.catalina.core.StandardService Line:173 ----------------> Starting service [Tomcat]
+2021-05-11 17:46:23.717 [main] INFO  org.apache.catalina.core.StandardEngine Line:173 ----------------> Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-11 17:46:23.718 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-05-11 17:46:23.718 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-05-11 17:46:23.718 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-11 17:46:23.718 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-11 17:46:24.755 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-05-11 17:46:24.802 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring embedded WebApplicationContext
+2021-05-11 17:46:24.802 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 ----------------> Root WebApplicationContext: initialization completed in 1885 ms
+2021-05-11 17:46:25.222 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-11 17:46:25.278 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 ----------------> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-11 17:46:25.365 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:181 ----------------> Initializing ExecutorService 'taskScheduler'
+2021-05-11 17:46:25.387 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Starting ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:46:25.399 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:220 ----------------> Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-11 17:46:25.400 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2021-05-11 17:46:25.411 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2021-05-11 17:46:25.432 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2021-05-11 17:46:25.515 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:61 ----------------> Started SpringbootMybatisApplication in 3.071 seconds (JVM running for 3.79)
+2021-05-11 17:46:30.128 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-11 17:46:30.128 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:525 ----------------> Initializing Servlet 'dispatcherServlet'
+2021-05-11 17:46:30.129 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:547 ----------------> Completed initialization in 1 ms
+2021-05-11 17:46:30.144 [http-nio-8087-exec-1] INFO  c.wjm.springbootmybatis.controller.UserController Line:30 ----------------> Controller info: 
+2021-05-11 17:46:30.144 [http-nio-8087-exec-1] ERROR c.wjm.springbootmybatis.controller.UserController Line:31 ----------------> Controller error: 
+2021-05-11 17:46:30.144 [http-nio-8087-exec-1] INFO  com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:23 ----------------> ServiceImpl info: 
+2021-05-11 17:46:30.144 [http-nio-8087-exec-1] ERROR com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:24 ----------------> ServiceImpl error: 
+2021-05-11 17:46:30.183 [http-nio-8087-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource Line:928 ----------------> {dataSource-1} inited
+2021-05-11 17:46:30.305 [http-nio-8087-exec-1] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==>  Preparing: select * from s_user 
+2021-05-11 17:46:30.321 [http-nio-8087-exec-1] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==> Parameters: 
+2021-05-11 17:46:30.337 [http-nio-8087-exec-1] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> <==      Total: 1
+2021-05-11 17:54:05.676 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:218 ----------------> Shutting down ExecutorService 'taskScheduler'
+2021-05-11 17:54:05.677 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 ----------------> Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-11 17:54:05.681 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 ----------------> {dataSource-1} closed
+2021-05-11 17:54:09.048 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:55 ----------------> Starting SpringbootMybatisApplication using Java 1.8.0_161 on DESKTOP-QA8N3ES with PID 10232 (D:\app\java\idea\workspase\test\springboot-test\springboot-mybatis\target\classes started by 15771 in D:\app\java\idea\workspase\test\springboot-test)
+2021-05-11 17:54:09.051 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:679 ----------------> The following profiles are active: dev
+2021-05-11 17:54:09.861 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:108 ----------------> Tomcat initialized with port(s): 8087 (http)
+2021-05-11 17:54:09.867 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:54:09.867 [main] INFO  org.apache.catalina.core.StandardService Line:173 ----------------> Starting service [Tomcat]
+2021-05-11 17:54:09.867 [main] INFO  org.apache.catalina.core.StandardEngine Line:173 ----------------> Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-11 17:54:09.869 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-05-11 17:54:09.869 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-05-11 17:54:09.869 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-11 17:54:09.869 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-11 17:54:10.903 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-05-11 17:54:10.959 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring embedded WebApplicationContext
+2021-05-11 17:54:10.959 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 ----------------> Root WebApplicationContext: initialization completed in 1870 ms
+2021-05-11 17:54:11.392 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-11 17:54:11.447 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 ----------------> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-11 17:54:11.537 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:181 ----------------> Initializing ExecutorService 'taskScheduler'
+2021-05-11 17:54:11.558 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Starting ProtocolHandler ["http-nio-8087"]
+2021-05-11 17:54:11.570 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:220 ----------------> Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-11 17:54:11.571 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2021-05-11 17:54:11.583 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2021-05-11 17:54:11.603 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2021-05-11 17:54:11.693 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:61 ----------------> Started SpringbootMybatisApplication in 3.068 seconds (JVM running for 3.796)
+2021-05-11 17:54:33.307 [http-nio-8087-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-11 17:54:33.307 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet Line:525 ----------------> Initializing Servlet 'dispatcherServlet'
+2021-05-11 17:54:33.308 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet Line:547 ----------------> Completed initialization in 1 ms
+2021-05-11 17:54:33.323 [http-nio-8087-exec-2] INFO  c.wjm.springbootmybatis.controller.UserController Line:30 ----------------> Controller info: 
+2021-05-11 17:54:33.323 [http-nio-8087-exec-2] ERROR c.wjm.springbootmybatis.controller.UserController Line:31 ----------------> Controller error: 
+2021-05-11 17:54:33.323 [http-nio-8087-exec-2] INFO  com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:23 ----------------> ServiceImpl info: 
+2021-05-11 17:54:33.323 [http-nio-8087-exec-2] ERROR com.wjm.springbootmybatis.impl.UserServiceCsvImpl Line:24 ----------------> ServiceImpl error: 
+2021-05-11 17:54:33.359 [http-nio-8087-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource Line:928 ----------------> {dataSource-1} inited
+2021-05-11 17:54:33.477 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==>  Preparing: select * from s_user 
+2021-05-11 17:54:33.493 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> ==> Parameters: 
+2021-05-11 17:54:33.510 [http-nio-8087-exec-2] DEBUG c.wjm.springbootmybatis.dao.UserMapper.getUserInfo Line:159 ----------------> <==      Total: 1

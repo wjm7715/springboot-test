@@ -9,10 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-async" />
         <module name="springboot-mybatis" />
+        <module name="springboot-02-config" />
         <module name="springboot-hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-02-config" target="1.8" />
       <module name="springboot-async" target="1.8" />
       <module name="springboot-hello" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
@@ -20,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-02-config" options="-parameters" />
       <module name="springboot-async" options="-parameters" />
       <module name="springboot-hello" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />

@@ -1,0 +1,71 @@
+2021-05-12 15:08:42.729 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:55 ----------------> Starting SpringbootMybatisApplication using Java 1.8.0_161 on DESKTOP-QA8N3ES with PID 24308 (D:\app\java\idea\workspase\test\springboot-test\springboot-mybatis\target\classes started by 15771 in D:\app\java\idea\workspase\test\springboot-test)
+2021-05-12 15:08:42.733 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:679 ----------------> The following profiles are active: dev
+2021-05-12 15:12:09.741 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:128 ----------------> Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-12 15:12:09.751 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:188 ----------------> Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-05-12 15:12:10.092 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:108 ----------------> Tomcat initialized with port(s): 8087 (http)
+2021-05-12 15:12:10.099 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-12 15:12:10.099 [main] INFO  org.apache.catalina.core.StandardService Line:173 ----------------> Starting service [Tomcat]
+2021-05-12 15:12:10.099 [main] INFO  org.apache.catalina.core.StandardEngine Line:173 ----------------> Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-12 15:12:10.100 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-05-12 15:12:10.100 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-05-12 15:12:10.100 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-12 15:12:10.101 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-12 15:12:11.140 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-05-12 15:12:11.202 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring embedded WebApplicationContext
+2021-05-12 15:12:11.202 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 ----------------> Root WebApplicationContext: initialization completed in 208431 ms
+2021-05-12 15:12:11.355 [main] INFO  com.alibaba.druid.pool.DruidDataSource Line:928 ----------------> {dataSource-1} inited
+2021-05-12 15:12:11.515 [main] INFO  org.hibernate.jpa.internal.util.LogHelper Line:31 ----------------> HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-12 15:12:11.563 [main] INFO  org.hibernate.Version Line:44 ----------------> HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-12 15:12:11.671 [main] INFO  org.hibernate.annotations.common.Version Line:56 ----------------> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-12 15:12:11.762 [main] INFO  org.hibernate.dialect.Dialect Line:175 ----------------> HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-12 15:12:11.889 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator Line:52 ----------------> HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-12 15:12:11.900 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean Line:437 ----------------> Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-12 15:12:12.158 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Line:221 ----------------> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-12 15:12:12.256 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-12 15:12:12.323 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 ----------------> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-12 15:12:12.426 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:181 ----------------> Initializing ExecutorService 'taskScheduler'
+2021-05-12 15:12:12.447 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Starting ProtocolHandler ["http-nio-8087"]
+2021-05-12 15:12:12.459 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:220 ----------------> Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-12 15:12:12.460 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2021-05-12 15:12:12.472 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2021-05-12 15:12:12.492 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2021-05-12 15:12:12.574 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:61 ----------------> Started SpringbootMybatisApplication in 210.283 seconds (JVM running for 211.059)
+2021-05-12 15:35:55.239 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:218 ----------------> Shutting down ExecutorService 'taskScheduler'
+2021-05-12 15:35:55.241 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 ----------------> Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-12 15:35:55.242 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean Line:651 ----------------> Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-12 15:35:55.247 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 ----------------> {dataSource-1} closed
+2021-05-12 15:37:01.590 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:55 ----------------> Starting SpringbootMybatisApplication using Java 1.8.0_161 on DESKTOP-QA8N3ES with PID 15116 (D:\app\java\idea\workspase\test\springboot-test\springboot-mybatis\target\classes started by 15771 in D:\app\java\idea\workspase\test\springboot-test)
+2021-05-12 15:37:01.594 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:679 ----------------> The following profiles are active: dev
+2021-05-12 16:23:51.385 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:128 ----------------> Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-12 16:23:51.395 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:188 ----------------> Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-05-12 16:23:51.719 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:108 ----------------> Tomcat initialized with port(s): 8087 (http)
+2021-05-12 16:23:51.725 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 ----------------> Initializing ProtocolHandler ["http-nio-8087"]
+2021-05-12 16:23:51.725 [main] INFO  org.apache.catalina.core.StandardService Line:173 ----------------> Starting service [Tomcat]
+2021-05-12 16:23:51.725 [main] INFO  org.apache.catalina.core.StandardEngine Line:173 ----------------> Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-12 16:23:51.726 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-05-12 16:23:51.727 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-05-12 16:23:51.727 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-12 16:23:51.727 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-12 16:23:52.751 [main] INFO  org.apache.catalina.core.AprLifecycleListener Line:173 ----------------> OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-05-12 16:23:52.814 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 ----------------> Initializing Spring embedded WebApplicationContext
+2021-05-12 16:23:52.815 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Line:289 ----------------> Root WebApplicationContext: initialization completed in 2811179 ms
+2021-05-12 16:23:52.955 [main] INFO  com.alibaba.druid.pool.DruidDataSource Line:928 ----------------> {dataSource-1} inited
+2021-05-12 16:23:53.118 [main] INFO  org.hibernate.jpa.internal.util.LogHelper Line:31 ----------------> HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-12 16:23:53.153 [main] INFO  org.hibernate.Version Line:44 ----------------> HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-12 16:23:53.239 [main] INFO  org.hibernate.annotations.common.Version Line:56 ----------------> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-12 16:23:53.327 [main] INFO  org.hibernate.dialect.Dialect Line:175 ----------------> HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-12 16:23:53.439 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator Line:52 ----------------> HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-12 16:23:53.448 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean Line:437 ----------------> Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-12 16:23:53.676 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Line:221 ----------------> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-12 16:23:53.770 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-12 16:23:53.833 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 ----------------> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-12 16:23:53.924 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:181 ----------------> Initializing ExecutorService 'taskScheduler'
+2021-05-12 16:23:53.956 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:220 ----------------> Tomcat started on port(s): 8087 (http) with context path ''
+2021-05-12 16:23:53.957 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2021-05-12 16:23:53.968 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2021-05-12 16:23:53.987 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2021-05-12 16:23:54.082 [main] INFO  c.w.springbootmybatis.SpringbootMybatisApplication Line:61 ----------------> Started SpringbootMybatisApplication in 2812.943 seconds (JVM running for 2813.664)
+2021-05-12 16:23:54.317 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler Line:218 ----------------> Shutting down ExecutorService 'taskScheduler'
+2021-05-12 16:23:54.318 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 ----------------> Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-12 16:23:54.320 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean Line:651 ----------------> Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-12 16:23:54.324 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 ----------------> {dataSource-1} closed
